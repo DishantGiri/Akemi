@@ -111,15 +111,10 @@
     if (!nav) return;
 
     window.addEventListener('scroll', function () {
-      if (window.scrollY > 20) {
-        nav.style.background  = 'rgba(249,245,240,0.92)';
-        nav.style.backdropFilter = 'blur(10px)';
-        nav.style.boxShadow   = '0 1px 16px rgba(27,47,42,0.08)';
-        nav.style.transition  = 'all 0.3s ease';
+      if (window.scrollY > 10) {
+        nav.classList.add('is-scrolled');
       } else {
-        nav.style.background  = '';
-        nav.style.backdropFilter = '';
-        nav.style.boxShadow   = '';
+        nav.classList.remove('is-scrolled');
       }
     }, { passive: true });
   }

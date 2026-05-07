@@ -644,9 +644,6 @@ svg { display: block; flex-shrink: 0; }
     position: static;
     transform: none;
   }
-
-  .nav__links li:nth-child(3),
-  .nav__links li:nth-child(4) { display: none; }
 }
 
 @media (max-width: 580px) {
@@ -658,8 +655,6 @@ svg { display: block; flex-shrink: 0; }
   .hero__offer-sep { display: none; }
 
   .hero__offer { gap: 0.4rem; }
-
-  .nav__links { display: none; }
 }
 
 

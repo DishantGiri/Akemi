@@ -10,6 +10,8 @@
     initAnimatedCounters();
     initCTARipple();
     initNavScroll();
+    initFAQ();
+    initNavToggle();
   });
 
   /* ── Animate rating number and review count on view ─────── */
@@ -117,6 +119,52 @@
         nav.classList.remove('is-scrolled');
       }
     }, { passive: true });
+  }
+
+  /* ── FAQ Accordion ─────────────────────────────────── */
+  function initFAQ() {
+    var faqQuestions = document.querySelectorAll(".faq__question");
+    if (!faqQuestions.length) return;
+
+    faqQuestions.forEach(function (question) {
+      question.addEventListener("click", function () {
+        var item = question.parentElement;
+        var isActive = item.classList.contains("active");
+
+        // Close all other items
+        document.querySelectorAll(".faq__item").forEach(function (otherItem) {
+          otherItem.classList.remove("active");
+        });
+
+        // Toggle current item
+        if (!isActive) {
+          item.classList.add("active");
+        }
+      });
+    });
+  }
+
+  /* ── Mobile Nav Toggle ─────────────────────────────── */
+  function initNavToggle() {
+    var toggle = document.getElementById('nav-toggle');
+    var menu   = document.getElementById('nav-menu');
+    var links  = document.querySelectorAll('.nav__link');
+
+    if (!toggle || !menu) return;
+
+    toggle.addEventListener('click', function () {
+      toggle.classList.toggle('is-active');
+      menu.classList.toggle('is-active');
+      document.body.classList.toggle('no-scroll');
+    });
+
+    links.forEach(function (link) {
+      link.addEventListener('click', function () {
+        toggle.classList.remove('is-active');
+        menu.classList.remove('is-active');
+        document.body.classList.remove('no-scroll');
+      });
+    });
   }
 
 })();

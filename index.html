@@ -18,15 +18,7 @@
     <!-- ── Navbar ─────────────────────────────────── -->
     <header class="nav" id="nav" role="banner">
       <nav class="nav__inner" aria-label="Main navigation">
-        <ul class="nav__links" id="nav-links">
-          <li><a href="#hero"    class="nav__link is-active">Home</a></li>
-          <li><a href="#shop"    class="nav__link">Shop</a></li>
-          <li><a href="#results" class="nav__link">Results</a></li>
-          <li><a href="#about"   class="nav__link">About</a></li>
-        </ul>
-
         <a href="#hero" class="nav__brand" id="nav-brand" aria-label="Akemi Hair Glow home">
-          <!-- Leaf / botanical wordmark icon -->
           <svg class="nav__brand-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
             <path d="M14 3C8 3 3 8 3 14c0 6.627 5.373 12 11 12 1 0 4-1 4-5 0-3-2-5-2-8 0-2 1-4 4-4 2 0 5 1 5 5 0 3-2 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
             <circle cx="14" cy="14" r="2.5" fill="currentColor"/>
@@ -34,13 +26,23 @@
           <span class="nav__brand-name">Akemi</span>
         </a>
 
-        <a href="#order" class="nav__cta" id="nav-cta">
-          Order Now
-          <!-- Arrow right icon -->
-          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__links" id="nav-links">
+            <li><a href="#hero"    class="nav__link is-active">Home</a></li>
+            <li><a href="#results" class="nav__link">Results</a></li>
+            <li><a href="#about"   class="nav__link">About</a></li>
+            <li><a href="#faq"     class="nav__link">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__actions">
+          <a href="#shop" class="nav__cta" id="nav-cta">Buy Now</a>
+          <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+          </button>
+        </div>
       </nav>
     </header>
 
@@ -342,6 +344,13 @@
       <div class="features__grid">
         <!-- Feature 1 -->
         <div class="features__card">
+          <div class="features__card-img-container">
+            <div class="features__card-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
           <h3 class="features__card-title">Lightweight Daily Spray</h3>
           <p class="features__card-text">
             The formula is designed to absorb without leaving the scalp greasy or the hair flat. That makes it easier to use before work, after a shower, or as part of a night routine.
@@ -350,6 +359,13 @@
 
         <!-- Feature 2 -->
         <div class="features__card">
+          <div class="features__card-img-container">
+            <div class="features__card-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
           <h3 class="features__card-title">Root-Focused Application</h3>
           <p class="features__card-text">
             Rather than applying product only to the hair strands, Akemi hair spray is used on the scalp so the formula reaches the areas where support is needed most.
@@ -358,6 +374,13 @@
 
         <!-- Feature 3 -->
         <div class="features__card">
+          <div class="features__card-img-container">
+            <div class="features__card-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
           <h3 class="features__card-title">Thinning Area Support</h3>
           <p class="features__card-text">
             Men often notice thinning around the crown, front hairline, or visible part. Akemi Hair Glow is designed for those exact areas.
@@ -366,6 +389,13 @@
 
         <!-- Feature 4 -->
         <div class="features__card">
+          <div class="features__card-img-container">
+            <div class="features__card-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
           <h3 class="features__card-title">Ingredient-Led Formula</h3>
           <p class="features__card-text">
             The formula includes familiar hair-care ingredients such as biotin, caffeine, castor oil, ginger root extract, He Shou Wu, and aminexil.
@@ -374,6 +404,13 @@
 
         <!-- Feature 5 -->
         <div class="features__card">
+          <div class="features__card-img-container">
+            <div class="features__card-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
           <h3 class="features__card-title">No Pill Routine</h3>
           <p class="features__card-text">
             For men who dislike supplements or capsules, Akemi hair glow hair growth spray keeps the routine external and direct.
@@ -381,22 +418,7 @@
         </div>
       </div>
 
-      <div class="features__visual">
-        <div class="features__image-container">
-          <div class="features__image-placeholder">
-            <div class="features__ip-inner">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              <p>Key Features Visual</p>
-            </div>
-          </div>
-          <!-- 
-            Replace with:
-            <img src="public/features.webp" alt="Akemi Hair Glow key features for thinning hair support" class="features__img" />
-          -->
-        </div>
-      </div>
+
 
       <div class="features__triggers">
         <span class="features__trigger">
@@ -415,6 +437,1135 @@
 
     </div>
   </section>
+
+  <!-- ── Section: Technical Specifications ───────────── -->
+  <section class="tech-specs" id="tech-specs">
+    <div class="tech-specs__container">
+      
+      <div class="tech-specs__header">
+        <h2 class="tech-specs__title">Technical <span class="tech-specs__title-accent">Specifications</span></h2>
+        <p class="tech-specs__intro">
+          Akemi hair growth serum is presented as a topical spray formula with a leave-in application style. The practical value is in its usability: a hair-support product only works for real people when it fits into real life.
+        </p>
+      </div>
+
+      <div class="tech-specs__grid">
+        <!-- Delivery & Feel -->
+        <div class="tech-specs__info">
+          <div class="tech-specs__info-group">
+            <h3 class="tech-specs__group-title">Formula Feel</h3>
+            <p class="tech-specs__group-text">
+              The brand describes the product as lightweight, clean-feeling, and non-greasy. That matters because men are more likely to continue using a product when it does not make hair look oily or styled unnaturally.
+            </p>
+          </div>
+
+          <div class="tech-specs__info-group">
+            <h3 class="tech-specs__group-title">Spray Delivery</h3>
+            <p class="tech-specs__group-text">
+              The spray format helps users apply the formula directly to the scalp instead of wasting product on the outer hair. For thinning areas, this direct application is a major usability advantage.
+            </p>
+          </div>
+
+          <div class="tech-specs__disclaimer">
+            <p>
+              <strong>Note:</strong> Akemi hair products should be used as cosmetic scalp-care support, not as a guaranteed cure for medical hair loss. Increased DHT activity is associated with some pattern hair loss, but genetics and other factors also play a role.
+            </p>
+          </div>
+        </div>
+
+        <!-- Ingredient Profile -->
+        <div class="tech-specs__ingredients">
+          <h3 class="tech-specs__group-title">Key Ingredient Profile</h3>
+          <ul class="tech-specs__list">
+            <li>
+              <div class="tech-specs__ing-img-container">
+                <div class="tech-specs__ing-placeholder">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="tech-specs__ing-info">
+                <span class="tech-specs__ing-name">Biotin</span>
+                <span class="tech-specs__ing-desc">Commonly used in hair-care formulas for strand support.</span>
+              </div>
+            </li>
+            <li>
+              <div class="tech-specs__ing-img-container">
+                <div class="tech-specs__ing-placeholder">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="tech-specs__ing-info">
+                <span class="tech-specs__ing-name">Caffeine</span>
+                <span class="tech-specs__ing-desc">Often included in scalp products for an energized scalp feel.</span>
+              </div>
+            </li>
+            <li>
+              <div class="tech-specs__ing-img-container">
+                <div class="tech-specs__ing-placeholder">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="tech-specs__ing-info">
+                <span class="tech-specs__ing-name">Castor oil</span>
+                <span class="tech-specs__ing-desc">Used for moisture, softness, and scalp comfort.</span>
+              </div>
+            </li>
+            <li>
+              <div class="tech-specs__ing-img-container">
+                <div class="tech-specs__ing-placeholder">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="tech-specs__ing-info">
+                <span class="tech-specs__ing-name">Ginger root extract</span>
+                <span class="tech-specs__ing-desc">Supports a fresh-feeling scalp environment.</span>
+              </div>
+            </li>
+            <li>
+              <div class="tech-specs__ing-img-container">
+                <div class="tech-specs__ing-placeholder">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="tech-specs__ing-info">
+                <span class="tech-specs__ing-name">He Shou Wu / Fo-Ti</span>
+                <span class="tech-specs__ing-desc">A traditional botanical used in hair-focused formulas.</span>
+              </div>
+            </li>
+            <li>
+              <div class="tech-specs__ing-img-container">
+                <div class="tech-specs__ing-placeholder">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="tech-specs__ing-info">
+                <span class="tech-specs__ing-name">Aminexil</span>
+                <span class="tech-specs__ing-desc">Commonly positioned in hair-care products for root support.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tech-specs__triggers">
+        <span class="tech-specs__trigger">
+          <div class="tech-specs__trigger-bar"></div>
+          Ingredient transparency
+        </span>
+        <span class="tech-specs__trigger">
+          <div class="tech-specs__trigger-bar"></div>
+          Practical application
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Section: How It Works ────────────────────────── -->
+  <section class="how-works" id="how-works">
+    <div class="how-works__container">
+      
+      <div class="how-works__header">
+        <h2 class="how-works__title">How It <span class="how-works__title-accent">Works</span></h2>
+        <p class="how-works__intro">
+          Akemi hair glow ingredients are selected to support the scalp and help hair look stronger, thicker, and healthier with consistent use. The spray is applied where thinning is most visible, then massaged into the scalp to support absorption and routine contact.
+        </p>
+      </div>
+
+      <div class="how-works__steps">
+        <div class="how-works__step">
+          <div class="how-works__step-num">01</div>
+          <h3 class="how-works__step-title">Scalp contact</h3>
+          <p class="how-works__step-text">The spray reaches the root area directly where the formula is needed most.</p>
+        </div>
+        <div class="how-works__step">
+          <div class="how-works__step-num">02</div>
+          <h3 class="how-works__step-title">Nourishing support</h3>
+          <p class="how-works__step-text">Carefully selected ingredients help support a healthier, more energized scalp feel.</p>
+        </div>
+        <div class="how-works__step">
+          <div class="how-works__step-num">03</div>
+          <h3 class="how-works__step-title">Consistent routine</h3>
+          <p class="how-works__step-text">Daily use helps maintain visible progress and supports hair health over time.</p>
+        </div>
+      </div>
+
+      <!-- Bottom Grid: Snippet + Text | Visual -->
+      <div class="how-works__bottom-grid">
+        <div class="how-works__bottom-content">
+          <!-- Featured Snippet Box -->
+          <div class="how-works__snippet">
+            <div class="how-works__snippet-inner">
+              <div class="how-works__snippet-header">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span>Featured Snippet</span>
+              </div>
+              <p class="how-works__snippet-text">
+                Akemi Hair Glow works by applying a lightweight hair growth spray directly to the scalp, especially around thinning-looking areas. Its ingredients support a cleaner scalp environment, stronger-feeling roots, and fuller-looking hair when used consistently as part of a daily routine.
+              </p>
+            </div>
+          </div>
+
+          <div class="how-works__content-bottom">
+            <div class="how-works__text-block">
+              <p>
+                The brand’s product copy also focuses on DHT-related thinning concerns. That topic is common in men’s hair-care searches because DHT is linked to androgenetic hair loss in some people.
+              </p>
+              <p>
+                However, Akemi Hair Glow should be described as a cosmetic hair-care product, not an FDA-approved medication for hair loss. For comparison, AAD lists minoxidil as an at-home option that can help early hair loss, but it also explains that it cannot regrow a full head of hair.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="how-works__bottom-visual">
+          <div class="how-works__image-container how-works__image-container--tall">
+            <div class="how-works__image-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 16c1-4 5-7 10-6M10 16c0-3 2-5 4-6M7 16c.5-2 2-3 4-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              </svg>
+              <p>Application Visual</p>
+            </div>
+            <!-- 
+              Replace with:
+              <img src="public/how-it-works-2.webp" alt="how Akemi Hair Glow works on scalp roots" class="how-works__img" />
+            -->
+          </div>
+        </div>
+      </div>
+
+      <div class="how-works__triggers">
+        <span class="how-works__trigger">
+          <div class="how-works__trigger-bar"></div>
+          Direct root support
+        </span>
+        <span class="how-works__trigger">
+          <div class="how-works__trigger-bar"></div>
+          Realistic expectations
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Section: How to Use ──────────────────────────── -->
+  <section class="how-use" id="how-use">
+    <div class="how-use__container">
+      
+      <div class="how-use__header">
+        <h2 class="how-use__title">How <span class="how-use__title-accent">to Use</span></h2>
+        <p class="how-use__intro">
+          Using Akemi hair grow spray is simple enough for a daily grooming routine. Follow these steps for the best experience.
+        </p>
+      </div>
+
+      <div class="how-use__steps-grid">
+        <!-- Step 1 -->
+        <div class="how-use__step-card">
+          <div class="how-use__step-number">01</div>
+          <h3 class="how-use__step-title">Apply on a Dry or Towel-Dried Scalp</h3>
+          <p class="how-use__step-text">Part your hair where support is needed, such as the crown, hairline, or thinning-looking areas.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="how-use__step-card">
+          <div class="how-use__step-number">02</div>
+          <h3 class="how-use__step-title">Spray at the Roots</h3>
+          <p class="how-use__step-text">Apply a few sprays directly to the scalp. Try not to waste the product on the outer hair shaft.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="how-use__step-card">
+          <div class="how-use__step-number">03</div>
+          <h3 class="how-use__step-title">Massage for 30–60 Seconds</h3>
+          <p class="how-use__step-text">Massage gently with your fingertips. This helps spread the formula across the scalp and makes the routine feel more complete.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="how-use__step-card">
+          <div class="how-use__step-number">04</div>
+          <h3 class="how-use__step-title">Let It Dry</h3>
+          <p class="how-use__step-text">Do not rinse it out. Let the spray dry, then style your hair as usual.</p>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="how-use__step-card">
+          <div class="how-use__step-number">05</div>
+          <h3 class="how-use__step-title">Stay Consistent</h3>
+          <p class="how-use__step-text">Use daily as directed. Hair appearance changes slowly, so a few weeks of consistent use usually gives a fairer impression than trying it once or twice.</p>
+        </div>
+      </div>
+
+      <div class="how-use__cta-box">
+        <div class="how-use__cta-bar"></div>
+        <div class="how-use__cta-content">
+          <h4 class="how-use__cta-tag">Recommendation:</h4>
+          <p class="how-use__cta-text">Start with a bundle if you want enough supply for a proper routine.</p>
+          <a href="#shop" class="how-use__cta-link">View Bundle Options &rarr;</a>
+        </div>
+      </div>
+
+      <div class="how-use__triggers">
+        <span class="how-use__trigger">
+          <div class="how-use__trigger-bar"></div>
+          Easy routine
+        </span>
+        <span class="how-use__trigger">
+          <div class="how-use__trigger-bar"></div>
+          No rinse
+        </span>
+        <span class="how-use__trigger">
+          <div class="how-use__trigger-bar"></div>
+          Daily control
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Section: Customer Reviews ────────────────────── -->
+  <section class="reviews" id="reviews">
+    <div class="reviews__container">
+      
+      <div class="reviews__header">
+        <h2 class="reviews__title">Real Customer <span class="reviews__title-accent">Reviews</span></h2>
+        <div class="reviews__rating-summary">
+          <div class="reviews__stars">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" opacity="0.4"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <p class="reviews__rating-text">4.8 Rating based on 3,758 verified reviews</p>
+        </div>
+        <p class="reviews__intro">
+          Akemi Hair Glow reviews focus heavily on three things: less visible shedding, a cleaner feel, and fuller-looking hair around the crown or hairline.
+        </p>
+      </div>
+
+      <div class="reviews__grid">
+        <!-- Review 1 -->
+        <div class="reviews__card">
+          <div class="reviews__card-header">
+            <div class="reviews__avatar-container">
+              <div class="reviews__avatar-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="reviews__user-info">
+              <span class="reviews__user-name">James T.</span>
+              <span class="reviews__user-verify">Verified Buyer</span>
+            </div>
+          </div>
+          <p class="reviews__card-text">
+            “I started using Akemi Hair Glow because my crown looked thin in photos. After a few weeks, my hair looked healthier at the roots and did not feel greasy.”
+          </p>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="reviews__card">
+          <div class="reviews__card-header">
+            <div class="reviews__avatar-container">
+              <div class="reviews__avatar-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="reviews__user-info">
+              <span class="reviews__user-name">Michael R.</span>
+              <span class="reviews__user-verify">Verified Buyer</span>
+            </div>
+          </div>
+          <p class="reviews__card-text">
+            “I like that it does not feel like oil. Spray, massage, done. My hair looks cleaner and stronger without making my scalp feel heavy.”
+          </p>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="reviews__card">
+          <div class="reviews__card-header">
+            <div class="reviews__avatar-container">
+              <div class="reviews__avatar-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="reviews__user-info">
+              <span class="reviews__user-name">David S.</span>
+              <span class="reviews__user-verify">Verified Buyer</span>
+            </div>
+          </div>
+          <p class="reviews__card-text">
+            “My hairline still needs time, but I am seeing less hair in my brush. That alone made me want to keep going.”
+          </p>
+        </div>
+
+        <!-- Review 4 -->
+        <div class="reviews__card">
+          <div class="reviews__card-header">
+            <div class="reviews__avatar-container">
+              <div class="reviews__avatar-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="reviews__user-info">
+              <span class="reviews__user-name">Robert L.</span>
+              <span class="reviews__user-verify">Verified Buyer</span>
+            </div>
+          </div>
+          <p class="reviews__card-text">
+            “I was skeptical about another hair spray, but Akemi Hair Glow felt easier to use than supplements. It fits into my routine.”
+          </p>
+        </div>
+      </div>
+
+      <div class="reviews__note-box">
+        <div class="reviews__note-bar"></div>
+        <div class="reviews__note-content">
+          <h4 class="reviews__note-tag">Balanced Buyer Note:</h4>
+          <p class="reviews__note-text">
+            Akemi hair growth spray reviews should be read with realistic expectations. Some users may notice cosmetic improvements faster, while others may need longer. Results can vary based on age, genetics, stress, diet, scalp condition, and consistency.
+          </p>
+        </div>
+      </div>
+
+      <div class="reviews__triggers">
+        <span class="reviews__trigger">
+          <div class="reviews__trigger-bar"></div>
+          Social proof
+        </span>
+        <span class="reviews__trigger">
+          <div class="reviews__trigger-bar"></div>
+          Realistic buyer confidence
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Section: Bundle Offers ──────────────────────── -->
+  <section class="shop" id="shop">
+    <div class="shop__container">
+      
+      <div class="shop__header">
+        <h2 class="shop__title">Special Offer / <span class="shop__title-accent">Bundle Deals</span></h2>
+        <p class="shop__intro">
+          Buyers searching Akemi Hair Glow where to buy should use the official checkout page to avoid fake listings, outdated pricing, or unsupported third-party offers.
+        </p>
+      </div>
+
+      <div class="shop__grid">
+        <!-- Bundle 1 -->
+        <div class="shop__card">
+          <div class="shop__card-badge">Entry Pack</div>
+          <div class="shop__card-img-container">
+            <div class="shop__card-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shop__card-content">
+            <h3 class="shop__card-title">Buy 1 Akemi Hair Glow</h3>
+            <p class="shop__card-subtitle">Best For: First-time users</p>
+            <div class="shop__price">
+              <span class="shop__price-original">$66.64</span>
+              <span class="shop__price-value">$29.99</span>
+              <span class="shop__price-label">/ Bottle</span>
+            </div>
+            <div class="shop__card-savings">Save 50% OFF + 10% OFF</div>
+            <a href="https://secureofficialsite.store/buy-akemi" class="btn btn--outline btn--full">Select Package</a>
+          </div>
+        </div>
+
+        <!-- Bundle 2 (Recommended) -->
+        <div class="shop__card shop__card--featured">
+          <div class="shop__card-badge shop__card-badge--featured">Recommended Deal</div>
+          <div class="shop__card-img-container">
+            <div class="shop__card-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shop__card-content">
+            <h3 class="shop__card-title">Buy 4 Akemi Hair Glows</h3>
+            <p class="shop__card-subtitle">Best For: Men wanting a longer routine</p>
+            <div class="shop__price">
+              <span class="shop__price-original">$266.58</span>
+              <span class="shop__price-value">$19.99</span>
+              <span class="shop__price-label">/ Bottle</span>
+            </div>
+            <div class="shop__card-savings">Save 67% OFF + 10% OFF</div>
+            <a href="https://secureofficialsite.store/buy-akemi" class="btn btn--primary btn--full">Select Recommended</a>
+          </div>
+        </div>
+
+        <!-- Bundle 3 -->
+        <div class="shop__card">
+          <div class="shop__card-badge">Best Value</div>
+          <div class="shop__card-img-container">
+            <div class="shop__card-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shop__card-content">
+            <h3 class="shop__card-title">Buy 6 Akemi Hair Glows</h3>
+            <p class="shop__card-subtitle">Best For: Maximum value and consistency</p>
+            <div class="shop__price">
+              <span class="shop__price-original">$399.87</span>
+              <span class="shop__price-value">$19.99</span>
+              <span class="shop__price-label">/ Bottle</span>
+            </div>
+            <div class="shop__card-savings">Save 67% OFF + 10% OFF</div>
+            <a href="https://secureofficialsite.store/buy-akemi" class="btn btn--outline btn--full">Select Package</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="shop__trust-footer">
+        <div class="shop__trust-badges">
+          <div class="shop__trust-badge">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L3 7v6a12 12 0 009 11.66A12 12 0 0021 13V7l-9-5z" stroke="currentColor" stroke-width="2"/></svg>
+            <span>30-Day Money Back Guarantee</span>
+          </div>
+          <div class="shop__trust-badge">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 15V17M6 21H18C19.1046 21 20 20.1046 20 19V11C20 9.89543 19.1046 9 18 9H6C4.89543 9 4 9.89543 4 11V19C4 20.1046 4.89543 21 6 21ZM16 9V5C16 2.79086 14.2091 1 12 1C9.79086 1 8 2.79086 8 5V9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Secure SSL Encrypted Payment</span>
+          </div>
+          <div class="shop__trust-badge">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-14v4m0 0l8 4m-8-4L4 11m8 4v10l8-4m-8 4L4 17m8-4L4 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Tracked Package Protection</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="shop__triggers">
+        <span class="shop__trigger">
+          <div class="shop__trigger-bar"></div>
+          Savings
+        </span>
+        <span class="shop__trigger">
+          <div class="shop__trigger-bar"></div>
+          Bundle value
+        </span>
+        <span class="shop__trigger">
+          <div class="shop__trigger-bar"></div>
+          Limited-time urgency
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Section: Who Should Buy ────────────────────── -->
+  <section class="qualification" id="qualification">
+    <div class="qualification__container">
+      
+      <div class="qualification__header">
+        <h2 class="qualification__title">Who Should <span class="qualification__title-accent">Buy</span></h2>
+        <p class="qualification__intro">
+          Akemi Hair Glow for men is best suited for men who want a simple, non-greasy scalp spray to support thicker-looking hair and stronger-feeling roots.
+        </p>
+      </div>
+
+      <div class="qualification__grid">
+        <div class="qualification__content">
+          <h3 class="qualification__list-title">Akemi Hair Glow May Be Right For You If:</h3>
+          <ul class="qualification__list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Your crown looks thinner under light</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Your hairline looks weaker than before</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>You notice more shedding in the shower or brush</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Your scalp feels oily or neglected</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>You dislike pills or heavy hair oils</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>You want a fast daily routine</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>You want a product that supports appearance, not a complicated treatment plan</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="qualification__visual">
+          <div class="qualification__image-container">
+            <div class="qualification__image-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <p>Akemi Hair Glow for men with thinning crown and hairline</p>
+            </div>
+            <!-- <img src="public/who-should-buy.webp" alt="Akemi Hair Glow for men with thinning crown and hairline" class="qualification__img"> -->
+          </div>
+        </div>
+
+        <div class="qualification__aside">
+          <div class="qualification__care-box">
+            <div class="qualification__care-bar"></div>
+            <div class="qualification__care-content">
+              <h4 class="qualification__care-tag">Who Should Be More Careful:</h4>
+              <p class="qualification__care-text">
+                Do not rely on Akemi hair growth serum review content alone if your hair loss is sudden, patchy, painful, itchy, or connected with illness, medication changes, or scalp inflammation.
+              </p>
+              <p class="qualification__care-text qualification__care-text--small">
+                Cleveland Clinic notes that hair loss can happen for many reasons, including androgenic alopecia, autoimmune conditions, stress-related shedding, and other health factors.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="qualification__triggers">
+        <span class="qualification__trigger">
+          <div class="qualification__trigger-bar"></div>
+          Self-identification
+        </span>
+        <span class="qualification__trigger">
+          <div class="qualification__trigger-bar"></div>
+          Responsible trust
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Section: Comparison ────────────────────────── -->
+  <section class="comparison" id="comparison">
+    <div class="comparison__container">
+      
+      <div class="comparison__header">
+        <h2 class="comparison__title">Comparison <span class="comparison__title-accent">Table</span></h2>
+        <p class="comparison__intro">
+          Men comparing Akemi hair glow hair growth spray with other options usually care about ease, feel, cost, and consistency.
+        </p>
+      </div>
+
+      <div class="comparison__table-wrapper">
+        <table class="comparison__table">
+          <thead>
+            <tr>
+              <th>Option</th>
+              <th>Best For</th>
+              <th>Pros</th>
+              <th>Cons</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="comparison__row--highlight">
+              <td class="comparison__option-cell">
+                <div class="comparison__option-badge">Recommended</div>
+                <strong>Akemi Hair Glow</strong>
+              </td>
+              <td>Men wanting lightweight scalp support</td>
+              <td>Easy spray routine, non-greasy, direct scalp use</td>
+              <td>Requires consistent use</td>
+            </tr>
+            <tr>
+              <td><strong>Heavy hair oil</strong></td>
+              <td>Dry scalp and shine</td>
+              <td>Moisturizing, familiar</td>
+              <td>Can feel greasy or weigh hair down</td>
+            </tr>
+            <tr>
+              <td><strong>Hair supplements</strong></td>
+              <td>Nutritional support</td>
+              <td>Easy to take daily</td>
+              <td>Not direct to scalp, may take longer</td>
+            </tr>
+            <tr>
+              <td><strong>Minoxidil</strong></td>
+              <td>FDA-recognized hair loss option</td>
+              <td>Evidence-backed for certain hair loss types</td>
+              <td>May cause irritation; needs continued use</td>
+            </tr>
+            <tr>
+              <td><strong>Salon treatments</strong></td>
+              <td>Professional support</td>
+              <td>Expert guidance</td>
+              <td>More expensive and time-consuming</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="comparison__quick-box">
+        <div class="comparison__quick-bar"></div>
+        <div class="comparison__quick-content">
+          <h4 class="comparison__quick-tag">Quick Answer:</h4>
+          <p class="comparison__quick-text">
+            Akemi Hair Glow is best for men who want a cosmetic scalp-support spray that feels lightweight and easy to use daily. It is not the same as prescription treatment, but it may suit buyers who want a simple appearance-focused routine.
+          </p>
+        </div>
+      </div>
+
+      <div class="comparison__triggers">
+        <span class="comparison__trigger">
+          <div class="comparison__trigger-bar"></div>
+          Decision clarity
+        </span>
+        <span class="comparison__trigger">
+          <div class="comparison__trigger-bar"></div>
+          Honest comparison
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Section: Shipping & Returns ────────────────── -->
+  <section class="logistics" id="logistics">
+    <div class="logistics__container">
+      
+      <div class="logistics__header">
+        <h2 class="logistics__title">Shipping & <span class="logistics__title-accent">Returns</span></h2>
+        <p class="logistics__intro">
+          For buyers searching Akemi Hair Glow where to buy, the safest option is the official order page. The checkout includes full package protection and secure payment processing.
+        </p>
+      </div>
+
+      <div class="logistics__grid">
+        <!-- Shipping Column -->
+        <div class="logistics__column">
+          <div class="logistics__icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="logistics__col-title">Shipping Notes</h3>
+          <ul class="logistics__list">
+            <li>Shipping and tax settled during checkout confirmation</li>
+            <li>Bundle orders provide better value per bottle</li>
+            <li>Package protection available for damage, loss, or theft</li>
+            <li>Express replacement support offered at checkout</li>
+          </ul>
+        </div>
+
+        <!-- Returns Column -->
+        <div class="logistics__column">
+          <div class="logistics__icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="logistics__col-title">Return Notes</h3>
+          <p class="logistics__text">The brand highlights a <strong>30-day money-back guarantee</strong>. Always review the latest Terms & Conditions and Privacy Policy before ordering.</p>
+          <p class="logistics__link-area">
+            Internal link: Read our <a href="return-policy.html">Shipping & Returns page</a> before completing checkout.
+          </p>
+        </div>
+      </div>
+
+      <div class="logistics__cta-area">
+        <a href="https://secureofficialsite.store/buy-akemi" class="btn btn--primary">Order From Official Checkout</a>
+        <p class="logistics__cta-sub">Protect your purchase by using the verified brand page.</p>
+      </div>
+
+      <div class="logistics__triggers">
+        <span class="logistics__trigger">
+          <div class="logistics__trigger-bar"></div>
+          Buyer safety
+        </span>
+        <span class="logistics__trigger">
+          <div class="logistics__trigger-bar"></div>
+          Order confidence
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Section: Guarantee ────────────────────────── -->
+  <section class="guarantee" id="guarantee">
+    <div class="guarantee__container">
+      
+      <div class="guarantee__box">
+        <div class="guarantee__badge-container">
+          <div class="guarantee__badge-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <!-- <img src="public/guarantee-badge.png" alt="Akemi Hair Glow 30 day money back guarantee badge" class="guarantee__badge"> -->
+        </div>
+
+        <h2 class="guarantee__title">100% Satisfaction or <span class="guarantee__title-break">Your Money Back</span></h2>
+        <p class="guarantee__subtitle">30-Day Money-Back Guarantee</p>
+
+        <div class="guarantee__content">
+          <p class="guarantee__text">
+            Akemi Hair Glow spray reviews often matter because hair products require trust. The brand supports that trust with a <strong>30-day money-back guarantee</strong>, giving buyers a trial window if they are not satisfied.
+          </p>
+          <p class="guarantee__text">
+            This guarantee is especially useful for first-time buyers who are unsure whether the spray texture, routine, or feel will suit them. A guarantee does not promise results, but it does reduce the hesitation around trying the product.
+          </p>
+        </div>
+
+        <div class="guarantee__checklist-area">
+          <h3 class="guarantee__checklist-title">What to Remember:</h3>
+          <ul class="guarantee__checklist">
+            <li>Keep your order confirmation</li>
+            <li>Review return instructions before purchase</li>
+            <li>Use the product consistently as directed</li>
+            <li>Contact support within the guarantee window if needed</li>
+          </ul>
+        </div>
+
+        <p class="guarantee__link-area">
+          See full details on our <a href="money-back-guarantee.html">Money-Back Guarantee page</a>.
+        </p>
+      </div>
+
+      <div class="guarantee__triggers">
+        <span class="guarantee__trigger">
+          <div class="guarantee__trigger-bar"></div>
+          Risk reversal
+        </span>
+        <span class="guarantee__trigger">
+          <div class="guarantee__trigger-bar"></div>
+          First-order confidence
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Section: FAQ ──────────────────────────────── -->
+  <section class="faq" id="faq">
+    <div class="faq__container">
+      
+      <div class="faq__header">
+        <h2 class="faq__title">Frequently Asked <span class="faq__title-accent">Questions</span></h2>
+        <p class="faq__intro">
+          Everything you need to know about Akemi Hair Glow. If you have other questions, our support team is ready to help.
+        </p>
+      </div>
+
+      <div class="faq__grid">
+        <!-- Left Column -->
+        <div class="faq__column">
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>What is Akemi Hair Glow?</span>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="faq__icon"><path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p>Akemi Hair Glow is a lightweight hair growth support spray made for men who want stronger-looking roots, less visible shedding, and fuller-looking hair through a simple scalp routine.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>How do you use Akemi Hair Glow spray?</span>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="faq__icon"><path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p>Apply Akemi Hair Glow spray directly to dry or towel-dried scalp areas, massage for 30–60 seconds, let it dry, and style normally without rinsing.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>Is Akemi Hair Glow for men?</span>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="faq__icon"><path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p>Yes, Akemi Hair Glow for men is positioned for men dealing with thinning-looking hair, crown concerns, hairline changes, shedding, or weaker-looking roots.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>What are the Akemi Hair Glow ingredients?</span>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="faq__icon"><path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p>Akemi Hair Glow ingredients include biotin, caffeine, castor oil, aminexil, He Shou Wu/Fo-Ti, and ginger root extract, according to the brand’s product materials.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>When can I expect results from Akemi Hair Glow?</span>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="faq__icon"><path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p>Many users look for visible changes over several weeks, but results vary. Consistency matters because scalp and hair appearance usually improve gradually, not overnight.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="faq__column">
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>Does Akemi Hair Glow make hair greasy?</span>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="faq__icon"><path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p>The brand describes Akemi hair spray as lightweight and non-greasy, making it suitable for daily use without a sticky or heavy finish.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>Is Akemi Hair Glow a medical hair loss treatment?</span>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="faq__icon"><path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p>No. Akemi Hair Glow hair growth spray should be viewed as a cosmetic scalp-care product, not a medical treatment for diagnosed hair loss or scalp disease.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>Where to buy Akemi Hair Glow?</span>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="faq__icon"><path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p>Buyers searching Akemi Hair Glow where to buy should use the official checkout page or verified brand source to avoid fake offers or unsupported third-party listings.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>Are Akemi Hair Glow before and after results guaranteed?</span>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="faq__icon"><path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p>No individual Akemi Hair Glow before and after result is guaranteed. Hair appearance depends on genetics, routine, scalp condition, age, and overall health.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question">
+              <span>Can I use Akemi Hair Glow with other hair products?</span>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="faq__icon"><path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="faq__answer">
+              <p>Yes, many users can apply Akemi hair growth spray and style as usual once it dries. Avoid over-layering heavy oils if your scalp gets greasy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Section: Security ─────────────────────────── -->
+  <section class="security" id="security">
+    <div class="security__container">
+      <div class="security__grid">
+        
+        <!-- Left: Content -->
+        <div class="security__content">
+          <h2 class="security__title">Security & <span class="security__title-accent">Checkout Assurance</span></h2>
+          
+          <div class="security__body">
+            <p class="security__text">
+              Buyers looking for Akemi hair glow where to buy should pay attention to checkout security. The official checkout uses <strong>SSL encryption</strong> to protect your payment details and personal data.
+            </p>
+            
+            <div class="security__checklist-area">
+              <h3 class="security__checklist-title">Checkout Trust Signals:</h3>
+              <ul class="security__checklist">
+                <li>Secure checkout messaging</li>
+                <li>Privacy policy and terms links</li>
+                <li>Order summary before completion</li>
+                <li>Package protection option</li>
+                <li>Customer support access</li>
+                <li>Money-back guarantee messaging</li>
+              </ul>
+            </div>
+
+            <p class="security__note">
+              Before clicking complete checkout, confirm your selected bundle, email, phone number, shipping address, and final total.
+            </p>
+
+            <div class="security__assurance">
+              <div class="security__assurance-bar"></div>
+              <p class="security__assurance-text">Assurance of safe shopping builds trust and reduces purchase hesitation.</p>
+            </div>
+
+            <div class="security__cta-area">
+              <a href="#shop" class="security__btn">Complete Official Order</a>
+              <p class="security__cta-sub">Complete your Akemi Hair Glow order only through the official secure checkout.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Visual -->
+        <div class="security__visual">
+          <div class="security__image-wrapper">
+            <div class="security__image-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+                <path d="M2 17h20M7 21h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 7v4m0 0l-2-2m2 2l2-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>Secure Checkout Visual</span>
+            </div>
+            <!-- <img src="public/security-checkout.webp" alt="Akemi Hair Glow secure checkout and payment assurance" class="security__img"> -->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Section: Support ──────────────────────────── -->
+  <section class="support" id="support">
+    <div class="support__container">
+      <div class="support__grid">
+        
+        <!-- Left: Visual -->
+        <div class="support__visual">
+          <div class="support__image-wrapper">
+            <div class="support__image-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" fill="currentColor"/>
+              </svg>
+              <span>Support Specialist</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Content -->
+        <div class="support__content">
+          <h2 class="support__title">Contact <span class="support__title-accent">Support</span></h2>
+          
+          <div class="support__body">
+            <p class="support__text">
+              Need help with Akemi Hair Glow customer service? Email support is available offering <strong>fast response times</strong> and full product assistance so your routine is never interrupted. We ensure a seamless experience for every customer.
+            </p>
+
+            <div class="support__box">
+              <div class="support__box-bar"></div>
+              <div class="support__box-content">
+                <p class="support__box-text">Have questions? Our dedicated support team is always here for you!</p>
+                <a href="contact.html" class="support__box-link">Visit Contact Page &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="support__triggers">
+            <span class="support__trigger">
+              <div class="support__trigger-bar"></div>
+              Accessible help
+            </span>
+            <span class="support__trigger">
+              <div class="support__trigger-bar"></div>
+              Post-purchase trust
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ─────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__grid">
+        
+        <!-- Col 1: Brand -->
+        <div class="footer__col">
+          <a href="#hero" class="footer__logo">
+            <svg class="footer__logo-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 3C8 3 3 8 3 14c0 6.627 5.373 12 11 12 1 0 4-1 4-5 0-3-2-5-2-8 0-2 1-4 4-4 2 0 5 1 5 5 0 3-2 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="14" cy="14" r="2.5" fill="currentColor"/>
+            </svg>
+            <span class="footer__logo-name">Akemi</span>
+          </a>
+          <p class="footer__desc">
+            Premium hair growth support for men. Scientifically-inspired formulas for thicker, stronger-looking hair.
+          </p>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div class="footer__col">
+          <h4 class="footer__title">Explore</h4>
+          <ul class="footer__links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#about">About Our Spray</a></li>
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Support -->
+        <div class="footer__col">
+          <h4 class="footer__title">Support</h4>
+          <ul class="footer__links">
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="shipping-returns.html">Shipping & Returns</a></li>
+            <li><a href="money-back-guarantee.html">Money-Back Guarantee</a></li>
+            <li><a href="disclosure.html">Advertising Disclosure</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Legal -->
+        <div class="footer__col">
+          <h4 class="footer__title">Legal</h4>
+          <ul class="footer__links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-of-use.html">Terms of Use</a></li>
+          </ul>
+          <p class="footer__disclaimer">
+            *Results vary by individual. These statements have not been evaluated by the FDA.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2024 Akemi Hair Care. All rights reserved.</p>
+        <p class="footer__tagline">Designed for the modern man.</p>
+      </div>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>

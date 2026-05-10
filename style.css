@@ -107,7 +107,7 @@ svg {
     transparent
   );
   transition: none;
-  animation: btn-shine 4s infinite;
+  animation: btn-shine 6s infinite;
 }
 
 @keyframes btn-shine {
@@ -590,7 +590,7 @@ svg {
       rgba(255, 255, 255, 0.4) 50%,
       rgba(255, 255, 255, 0) 100%);
   transform: skewX(-25deg);
-  animation: shine 4s infinite;
+  animation: shine 6s infinite;
   pointer-events: none;
 }
 

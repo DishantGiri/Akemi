@@ -107,12 +107,11 @@ svg {
     transparent
   );
   transition: none;
-  animation: btn-shine 6s infinite;
+  animation: btn-shine 4.5s infinite;
 }
 
 @keyframes btn-shine {
   0% { left: -100%; }
-  20% { left: 100%; }
   100% { left: 100%; }
 }
 
@@ -590,7 +589,7 @@ svg {
       rgba(255, 255, 255, 0.4) 50%,
       rgba(255, 255, 255, 0) 100%);
   transform: skewX(-25deg);
-  animation: shine 6s infinite;
+  animation: shine 4.5s infinite;
   pointer-events: none;
 }
 
@@ -732,10 +731,6 @@ svg {
 @keyframes shine {
   0% {
     left: -100%;
-  }
-
-  30% {
-    left: 100%;
   }
 
   100% {

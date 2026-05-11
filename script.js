@@ -12,6 +12,7 @@
     initNavScroll();
     initFAQ();
     initNavToggle();
+    initFloatCTA();
   });
 
   /* ── Animate rating number and review count on view ─────── */
@@ -165,6 +166,31 @@
         document.body.classList.remove('no-scroll');
       });
     });
+  }
+
+  /* ── Floating Buy Now — appears after hero ───────────── */
+  function initFloatCTA() {
+    var btn  = document.getElementById('float-cta');
+    var hero = document.getElementById('hero');
+    if (!btn || !hero) return;
+
+    if (!('IntersectionObserver' in window)) {
+      // Fallback: always show
+      btn.classList.add('is-visible');
+      return;
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          btn.classList.remove('is-visible');
+        } else {
+          btn.classList.add('is-visible');
+        }
+      });
+    }, { threshold: 0.05 });
+
+    observer.observe(hero);
   }
 
 })();

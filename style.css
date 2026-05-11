@@ -748,7 +748,7 @@ svg {
   .hero__content {
     width: 100%;
     justify-content: flex-end;
-    padding: 48px 1.5rem 1rem;
+    padding: 30px 1.5rem 1rem;
     /* Semi-transparent overlay so image shows through */
     background: linear-gradient(to top,
         rgba(249, 245, 240, 0.97) 55%,

@@ -539,6 +539,11 @@ svg {
   color: var(--c-accent);
 }
 
+/* Hide br on desktop — show only on mobile */
+.hero__headline br {
+  display: none;
+}
+
 /* Tagline below H1 */
 .hero__tagline {
   font-size: clamp(1.1rem, 2.2vw, 1.7rem);
@@ -760,7 +765,11 @@ svg {
   }
 
   .hero__headline {
-    font-size: clamp(2.6rem, 10vw, 3.8rem);
+    font-size: clamp(2rem, 8.5vw, 2.8rem);
+  }
+
+  .hero__headline br {
+    display: block;
   }
 
   /* condensed on mobile */

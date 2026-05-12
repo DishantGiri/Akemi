@@ -2934,7 +2934,7 @@ svg {
 
 /* ── SECTION: GUARANTEE ─────────────────────────────────── */
 .guarantee {
-  padding: clamp(3rem, 6vw, 4.5rem) clamp(1.5rem, 6vw, 6rem);
+  padding: clamp(7rem, 14vw, 12rem) clamp(1.5rem, 6vw, 6rem) clamp(4rem, 8vw, 6rem);
   background: var(--c-white);
 }
 
@@ -2964,6 +2964,54 @@ svg {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  .guarantee {
+    padding-top: 6rem;
+  }
+  
+  .guarantee__box {
+    padding: 3rem 1.5rem 2rem;
+    border-radius: 24px;
+  }
+
+  .guarantee__badge-container {
+    width: 140px;
+  }
+
+  .guarantee__title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .guarantee__subtitle {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .guarantee__content {
+    margin-bottom: 2rem;
+  }
+
+  .guarantee__text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .guarantee__checklist-area {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .guarantee__checklist {
+    gap: 0.75rem;
+  }
+
+  .guarantee__checklist li {
+    font-size: 0.9rem;
+  }
 }
 
 .guarantee__badge-placeholder {

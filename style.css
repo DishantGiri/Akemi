@@ -127,6 +127,7 @@ svg {
 .hero {
   position: relative;
   width: 100%;
+  height: 100vh;
   min-height: 100vh;
   background: var(--c-bg);
   display: grid;
@@ -455,8 +456,8 @@ svg {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: clamp(100px, 15vh, 180px) clamp(1.5rem, 6vw, 8rem) clamp(1rem, 2vh, 1.5rem);
-  gap: clamp(0.2rem, 0.5vh, 0.5rem);
+  padding: clamp(60px, 8vh, 100px) clamp(1.5rem, 6vw, 8rem) clamp(0.5rem, 1vh, 1rem);
+  gap: clamp(0.1rem, 0.3vh, 0.3rem);
   pointer-events: none;
   /* Let clicks pass to image if needed, but we'll re-enable on children */
 }
@@ -526,7 +527,7 @@ svg {
 /* H1 */
 .hero__headline {
   font-family: var(--font-display);
-  font-size: clamp(2.5rem, 5.5vw, 5.2rem);
+  font-size: clamp(2.2rem, 4.5vw, 4.2rem);
   font-weight: 900;
   line-height: 1.05;
   letter-spacing: -0.02em;
@@ -546,7 +547,7 @@ svg {
 
 /* Tagline below H1 */
 .hero__tagline {
-  font-size: clamp(1.1rem, 2.2vw, 1.7rem);
+  font-size: clamp(1rem, 1.8vw, 1.4rem);
   font-weight: 500;
   color: var(--c-text-muted);
   line-height: 1.4;
@@ -645,7 +646,7 @@ svg {
 .hero__bullets {
   display: flex;
   flex-direction: column;
-  gap: clamp(0.6rem, 1.2vh, 1rem);
+  gap: clamp(0.4rem, 0.8vh, 0.8rem);
 }
 
 .hero__bullet {
